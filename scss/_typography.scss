@@ -22,3 +22,24 @@ h2 {
     color: white;
     letter-spacing: -0.05em;
 }
+
+p {
+    @include font-base;
+    padding-top: 22px;
+    font-size: 1em;
+    font-weight: 300;
+    color: white;
+    letter-spacing: -0.05em;
+}
+
+a {
+    @include font-base;
+    font-size: 1em;
+    font-weight: 300;
+    color: black;
+    padding-bottom: 6px;
+    &:hover {
+        border-bottom: 4px solid $brand;
+    }
+}
+
