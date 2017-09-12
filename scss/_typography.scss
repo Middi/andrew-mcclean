@@ -10,12 +10,31 @@ body {font-size: 16px}
 
 h1 {
     @include font-base;
-    font-size: 5em;
+    font-size: 4.6em;
     font-weight: 900;
     letter-spacing: -0.05em;
 }
 
 h2 {
+    @include font-base;
+    font-size: 2.2em;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+    padding-bottom: 40px;
+
+    &:after {
+        border-bottom: 6px solid $brand;
+        content      : "";
+        left         : 50%;
+        margin-left  : -20px;
+        position     : absolute;
+        margin-top: 45px;
+        width        : 40px;
+    }
+}
+
+h3 {
     @include font-base;
     font-size: 2em;
     font-weight: 300;
@@ -23,12 +42,31 @@ h2 {
     letter-spacing: -0.05em;
 }
 
-p {
+h4 {
     @include font-base;
     padding-top: 22px;
     font-size: 1em;
     font-weight: 300;
     color: white;
+    letter-spacing: -0.05em;
+}
+
+
+h5 {
+    @include font-base;
+    padding-top: 22px;
+    font-size: 2em;
+    font-weight: 300;
+    color: $brand;
+    letter-spacing: -0.05em;
+}
+
+p {
+    @include font-base;
+    padding-top: 22px;
+    font-size: 1.4em;
+    font-weight: 200;
+    color: $black;
     letter-spacing: -0.05em;
 }
 
@@ -38,6 +76,8 @@ a {
     font-weight: 300;
     color: black;
     padding-bottom: 6px;
+    border-bottom: 4px solid white;
+    transition: 0.2s border ease-in-out;
     &:hover {
         border-bottom: 4px solid $brand;
     }
