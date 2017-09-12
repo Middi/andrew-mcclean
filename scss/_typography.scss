@@ -1,0 +1,24 @@
+@mixin font-base {
+    font-family: 'Montserrat', sans-serif;
+    text-rendering:  optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing:  grayscale;
+    line-height: 1.2;
+}
+
+body {font-size: 16px}
+
+h1 {
+    @include font-base;
+    font-size: 5em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+}
+
+h2 {
+    @include font-base;
+    font-size: 2em;
+    font-weight: 300;
+    color: white;
+    letter-spacing: -0.05em;
+}
