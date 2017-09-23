@@ -5,24 +5,24 @@
 header {background-color: white}
 
 .inner {
-    width: 1200px;
+    width:  1200px;
     margin: 0 auto;
-    padding: 50px;
+    padding:  50px;
 }
 
 .inner-text {
-    width: 800px;
-    margin: 0 auto;
+    width:       800px;
+    margin:     0 auto;
     text-align: center;
 }
 .header {
-    height: 72px;
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
+    height:    72px;
+    width:   1200px;
+    margin:  0 auto;
+    display:   flex;
+    padding: 0 30px;
     align-items: center;
     justify-content: space-between;
-    padding: 0 30px;
     &-logo img {
         width: 200px;
     }
