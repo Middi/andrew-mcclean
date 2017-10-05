@@ -40,16 +40,16 @@ li {
     background-position: right top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 660px;
     width: 100%;
 
     &-inner {
         max-width:  1200px;
         margin: 0 auto;
-        padding:  20px 50px 0;
+        padding:  0 50px;
         display: flex;
         align-items: center;
-        height: 500px;
+        height: 660px;
 
         &-text {
             display: table-cell;
