@@ -9,13 +9,19 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/build",
+		"oF": 0
+		},
 	"\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/style-min.css",
+		"oA": 1,
+		"oAP": "\/build\/css\/style-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -23,7 +29,58 @@
 		"ft": 16384,
 		"iS": 68364,
 		"oA": 0,
-		"oAP": "\/images\/andrew.jpg",
+		"oAP": "\/build\/images\/andrew.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/hero.jpg": {
+		"ft": 16384,
+		"iS": 215078,
+		"oA": 0,
+		"oAP": "\/build\/images\/hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/icon.png": {
+		"ft": 32768,
+		"iS": 26554,
+		"oA": 0,
+		"oAP": "\/build\/images\/icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/image1.jpg": {
+		"ft": 16384,
+		"iS": 901202,
+		"oA": 0,
+		"oAP": "\/build\/images\/image1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/image2.jpg": {
+		"ft": 16384,
+		"iS": 445955,
+		"oA": 0,
+		"oAP": "\/build\/images\/image2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/image3.jpg": {
+		"ft": 16384,
+		"iS": 402796,
+		"oA": 0,
+		"oAP": "\/build\/images\/image3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -33,7 +90,7 @@
 		"ft": 32768,
 		"iS": 22128,
 		"oA": 0,
-		"oAP": "\/images\/logo.png",
+		"oAP": "\/build\/images\/logo.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -43,8 +100,34 @@
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/index.html",
+		"oAP": "\/build\/index.html",
 		"oF": 0
+		},
+	"\/scss\/_blogs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/scss\/_blogs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_cards.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/scss\/_cards.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/scss\/_colors.scss": {
 		"aP": 0,
@@ -54,7 +137,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/_colors.css",
+		"oAP": "\/build\/scss\/_colors.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -67,7 +150,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/_media-queries.css",
+		"oAP": "\/build\/scss\/_media-queries.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -80,7 +163,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/_normalise.css",
+		"oAP": "\/build\/scss\/_normalise.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -93,7 +176,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/_typography.css",
+		"oAP": "\/build\/scss\/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -106,7 +189,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/style.css",
+		"oAP": "\/build\/css\/style.css",
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
@@ -120,7 +203,8 @@
 	"creationDate": 526928916,
 	"displayValue": "andrew-mcclean",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-confession"
+	"iconImageName": "meme-confession",
+	"lastBuiltDate": 528921242
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -375,7 +459,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
-	"buildFolderActive": 0,
+	"buildFolderActive": 1,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
@@ -2261,7 +2345,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "\/build"
 	},
 "settingsFileVersion": "3"
 }
