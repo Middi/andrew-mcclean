@@ -107,6 +107,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/marcus.png": {
+		"ft": 32768,
+		"iS": 24943,
+		"oA": 0,
+		"oAP": "\/build\/images\/marcus.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
