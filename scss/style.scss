@@ -165,6 +165,10 @@ li {
 
 .test-left {
     text-align: left;
+    &:before {
+        content: "”";
+        left: 720px;
+    }
     &:after {
         content: " ";
         left: 34px;
