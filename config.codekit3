@@ -35,6 +35,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/comic-square.jpg": {
+		"ft": 16384,
+		"iS": 95435,
+		"oA": 0,
+		"oAP": "\/build\/images\/comic-square.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/hero.jpg": {
 		"ft": 16384,
 		"iS": 215078,

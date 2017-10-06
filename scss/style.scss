@@ -7,7 +7,7 @@
 header {background-color: white}
 
 .inner {
-    max-width:  1200px;
+    max-width:  1000px;
     margin: 0 auto;
     padding:  50px;
 
@@ -89,5 +89,58 @@ li {
     background-color: #f7f7f7;
 }
 
+.testimonial-container {
+    width: 700px;
+    padding: 70px 30px;
+    margin: 0 0 0 auto;
+}
+
+
+.testimonial-content{
+    height: 170px;
+    width: 700px;
+    background-color: white;
+    border: 1px solid #ddd;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: right;
+    &:before {
+        content: "“";
+        position: absolute;
+        top: -60px;
+        left: -120px;
+        font-size: 12rem;
+        color: $brand;
+        font-weight: 800;
+    }
+    &:after {
+        content: " ";
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        border-bottom: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        position: absolute;
+        transform: rotate(45deg);
+        bottom: -17px;
+        right: 34px;
+
+    }
+}
+
+.avatar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-top: 30px;
+    &-image {
+        width: 100px;
+        border-radius: 100px;
+    }
+    &-content {
+        text-align: right;
+    }
+}
 
 @import "media-queries";
