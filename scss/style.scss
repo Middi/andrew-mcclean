@@ -2,6 +2,7 @@
 @import "colors";
 @import "typography";
 @import "cards";
+@import "buttons";
 
 header {background-color: white}
 
@@ -49,7 +50,7 @@ li {
         padding:  0 50px;
         display: flex;
         align-items: center;
-        height: 660px;
+        height: 620px;
 
         &-text {
             display: table-cell;
