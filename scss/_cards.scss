@@ -26,7 +26,8 @@
         font-size: 1.2rem;
         margin: 0 0 12px;
     }
-    p {
+
+    .options {
         font-size: 1rem;
         padding: 6px;
         border-top: 1px solid #ddd;
@@ -35,37 +36,81 @@
         margin-top: 20px;
         width: 86px;
     }
+}
 
-    .btn{
-        @include font-base;
-        position: absolute;
-        background-size: 200% auto;
-        font-size: 1rem;
-        font-weight: 300;
-        border-radius: 2px;
-        border: none;
-        color: white;
-        padding: 12px 0;
+.card-small {
+    height: 300px;
+    width: 220px;
+    margin: 12px;
+    padding: 0;
+    overflow: hidden;
+
+    .blog-image {
+        height: 150px;
         width: 220px;
-        left: 50%;
-        margin-left: -110px;
-        bottom: 18px;
-        transition: all 0.3s ease-in-out;
-        cursor: pointer;
-
-        &:hover {
-        background-position: right center; /* change the direction of the change here */
-      }
+        overflow: hidden;
+        background-image: url('../images/andrew.jpg');
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
-    .btn-orange {
-        background-image: linear-gradient(to right, #F54D52 0%, #ff9966 51%, #F54D52 100%);
-    }
+  .content {
+    height: 150px;
+}
 
-    .btn-purple {
-        background-image: linear-gradient(to right, #6A04D8 0%, #e100ff 51%, #6A04D8 100%);
+    h4 {
+        color: $black;
+        font-size: 1.1rem;
+        padding: 10px;
     }
-    .btn-blue {
-        background-image: linear-gradient(to right, #000046 0%, #1cb5e0 51%, #000046 100%);
+}
+
+
+.btn {
+    @include font-base;
+    position: absolute;
+    background-size: 200% auto;
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    background-color: $brand;
+    padding: 12px 0;
+    width: 220px;
+    left: 50%;
+    margin-left: -110px;
+    bottom: 18px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+    background-position: right center;
+    border: none; /* change the direction of the change here */
+  }
+}
+
+.btn-orange {
+    background-image: linear-gradient(to right, #F54D52 0%, #ff9966 51%, #F54D52 100%);
+}
+
+.btn-purple {
+    background-image: linear-gradient(to right, #6A04D8 0%, #e100ff 51%, #6A04D8 100%);
+}
+.btn-blue {
+    background-image: linear-gradient(to right, #000046 0%, #1cb5e0 51%, #000046 100%);
+}
+
+.btn-small {
+    padding: 12px 0;
+    width: 160px;
+    left: 50%;
+    margin-left: -80px;
+    bottom: 18px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover {
+        background-color: darken($brand, 15);
     }
 }
