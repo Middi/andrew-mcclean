@@ -124,6 +124,16 @@
 		"oAP": "\/build\/index.html",
 		"oF": 0
 		},
+	"\/js\/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/js\/main-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/scss\/_blogs.scss": {
 		"aP": 0,
 		"bl": 0,

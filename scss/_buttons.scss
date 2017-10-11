@@ -1,5 +1,3 @@
-
-
 .btn {
     @include font-base;
     position: absolute;
@@ -20,7 +18,7 @@
 
     &:hover {
     background-position: right center;
-    border: none; /* change the direction of the change here */
+    border: none;
   }
 }
 
@@ -31,6 +29,7 @@
 .btn-purple {
     background-image: linear-gradient(to right, #6A04D8 0%, #e100ff 51%, #6A04D8 100%);
 }
+
 .btn-blue {
     background-image: linear-gradient(to right, #000046 0%, #1cb5e0 51%, #000046 100%);
 }
