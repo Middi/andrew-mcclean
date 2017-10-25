@@ -35,11 +35,32 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/book.png": {
+		"ft": 32768,
+		"iS": 574797,
+		"oA": 0,
+		"oAP": "\/build\/images\/book.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/comic-square.jpg": {
 		"ft": 16384,
 		"iS": 95435,
 		"oA": 0,
 		"oAP": "\/build\/images\/comic-square.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/hero-mobile.jpg": {
+		"ft": 16384,
+		"iS": 76971,
+		"oA": 0,
+		"oAP": "\/build\/images\/hero-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,

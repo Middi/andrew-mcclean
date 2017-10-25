@@ -63,7 +63,7 @@ h5 {
 
 p {
     @include font-base;
-    padding-top: 22px;
+    padding: 22px 0;
     font-size: 1.4em;
     font-weight: 200;
     color: $black;

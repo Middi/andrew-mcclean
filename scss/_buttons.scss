@@ -22,6 +22,26 @@
   }
 }
 
+.btn-book {
+    @include font-base;
+    background-size: 200% auto;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    background-color: $brand;
+    padding: 12px 20px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken($brand, 10);
+        text-decoration: none;
+        border: none;
+  }
+}
+
 .btn-orange {
     background-image: linear-gradient(to right, #F54D52 0%, #ff9966 51%, #F54D52 100%);
 }
