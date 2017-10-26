@@ -3,26 +3,28 @@
 @import "typography";
 @import "cards";
 @import "buttons";
+@import "inputs";
 
-header {background-color: white}
+header {
+    background-color: white
+}
 
 .inner {
-    max-width:  1200px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding:  50px;
-
+    padding: 50px;
     &-text {
-        max-width:   800px;
-        margin:     0 auto;
+        max-width: 800px;
+        margin: 0 auto;
         text-align: center;
     }
 }
 
 .header {
-    height:    72px;
-    max-width:   1200px;
-    margin:  0 auto;
-    display:   flex;
+    height: 72px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
     padding: 0 30px;
     align-items: center;
     justify-content: space-between;
@@ -39,7 +41,6 @@ li {
 
 /*===== Mobile Nav =======*/
 
-
 #hamburger {
     height: 36px;
     width: 36px;
@@ -49,32 +50,40 @@ li {
     cursor: pointer;
 }
 
-.hidden, #hamburger {display: none}
+.hidden,
+#hamburger {
+    display: none
+}
 
 #nav-toggle span {
     margin-top: 15px;
 }
 
-#nav-toggle span, 
+#nav-toggle span,
 #nav-toggle span:before,
 #nav-toggle span:after {
-  border-radius:  1px;
-  height:         3px;
-  width:         35px;
-  background: black;
-  position:  absolute;
-  display:      block;
-  content:         '';
-
-  &:active {background: white}
+    border-radius: 1px;
+    height: 3px;
+    width: 35px;
+    background: black;
+    position: absolute;
+    display: block;
+    content: '';
+    &:active {
+        background: white
+    }
 }
 
-#nav-toggle span:before {top: -10px}
+#nav-toggle span:before {
+    top: -10px
+}
 
-#nav-toggle span:after {bottom: -10px}
+#nav-toggle span:after {
+    bottom: -10px
+}
+
 
 /*=====  End of Header / Nav  ======*/
-
 
 .hero {
     background-image: url('../images/hero.jpg');
@@ -83,15 +92,13 @@ li {
     background-size: cover;
     height: 660px;
     width: 100%;
-
     &-inner {
-        max-width:  1200px;
+        max-width: 1200px;
         margin: 0 auto;
-        padding:  0 50px;
+        padding: 0 50px;
         display: flex;
         align-items: center;
         height: 620px;
-
         &-text {
             display: table-cell;
             vertical-align: middle;
@@ -99,11 +106,9 @@ li {
     }
 }
 
-
-
 .sub {
     padding: 6px 0;
-    &-input{
+    &-input {
         font-size: 1.4rem;
         padding: 6px;
         margin: 0;
@@ -132,11 +137,16 @@ li {
 
 .half-image img {
     width: 300px;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
 }
 
-.services, .testimonials {
+.services,
+.testimonials {
     background-color: #f7f7f7;
+}
+
+.contact {
+    background-color: white;
 }
 
 .testimonial-container {
@@ -144,7 +154,6 @@ li {
     padding: 50px 30px 0px;
     margin: 0 0 0 auto;
 }
-
 
 .testimonial-content {
     height: auto;
@@ -178,8 +187,6 @@ li {
     }
 }
 
-
-
 .avatar {
     display: flex;
     justify-content: flex-end;
@@ -193,12 +200,10 @@ li {
         text-align: right;
         padding: 14px;
     }
-
     .test-name {
         color: $brand;
         font-weight: 500;
     }
-
     .test-extra {
         padding: 0;
         font-size: 1.2rem;
@@ -206,7 +211,6 @@ li {
         padding-top: 4px;
     }
 }
-
 
 .test-con-left {
     margin: 0 auto 0 0;
@@ -221,10 +225,8 @@ li {
     &:after {
         content: " ";
         left: 34px;
-
     }
 }
-
 
 .avatar-left {
     justify-content: flex-start;
@@ -233,9 +235,7 @@ li {
         padding: 14px;
         text-align: left;
     }
-
 }
-
 
 footer {
     height: auto;
@@ -246,12 +246,35 @@ footer {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-
     p {
         color: white;
         font-size: 1rem;
         padding: 10px;
     }
 }
+
+.services {
+    .hero {
+        background-image: url('../images/hero-mobile.jpg');
+        height: 360px;
+
+        &-inner {
+            height: 380px;
+            text-align: center;
+            padding: 0;
+        }
+
+        &-text {
+            width: 100%;
+        }
+    }
+
+    .card {
+        margin: 20px auto;
+    }
+}
+
+
+
 
 @import "media-queries";

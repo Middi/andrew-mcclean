@@ -15,6 +15,12 @@
 		"oAP": "\/build\/build",
 		"oF": 0
 		},
+	"\/contact.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/contact.html",
+		"oF": 0
+		},
 	"\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -207,6 +213,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/_inputs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/scss\/_inputs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/_media-queries.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -258,6 +277,12 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/services.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/services.html",
+		"oF": 0
 		}
 	},
 "hooks": [
